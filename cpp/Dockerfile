@@ -4,6 +4,8 @@ LABEL maintainer "Roald Nefs <info@roaldnefs.com>"
 RUN apt-get update && apt-get install -y \
 	gcc \
 	g++ \
+	gcc-10 \
+	g++-10 \
 	valgrind \
 	icmake \
 	--no-install-recommends \
